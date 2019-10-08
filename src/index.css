@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#celebrities {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#celebrities h1 {
+  width: 100%;
+}
+
+.search {
+  width: 100%;
+}
+
+#celebritiesList {
+  width: 40%;
+}
+.OneCelebrity ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.OneCelebrity li {
+  list-style-type: none;
+  -webkit-padding-start: 0;
+  text-align: left;
+}
+
+.OneCelebrity img {
+  width: 30%;
+}
+
+#celebrityDetail {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+#celebrityDetail li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.OneCelebrity.is-active {
+  font-weight: bold;
+}
